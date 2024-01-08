@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty Wiki</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1>What's your favourite character?</h1>
+    </div>
+    <div class="card">
+        <img class="charImg" src="<%= imageURL %>" alt="image">
+    </div>
+    <div class="character">
+        <div class="text">
+            <p>
+                Name: <%= charName %>
+            </p>
+        </div>
+        <div class="text">
+            <p>
+                Species: <%= charSpecies %>
+            </p>
+        </div>
+        <div class="text">
+            <p>
+                Status: <%= status %>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
